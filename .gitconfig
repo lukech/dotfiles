@@ -1,0 +1,23 @@
+[user]
+    name = Luke Chen
+    email = luke.chen@mongodb.com
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[alias]
+    b   = branch -vv 
+    br  = branch -av 
+    l   = log
+    l1  = log --oneline
+    l11 = log --oneline -1 
+    lu  = log -u
+    lg  = log --oneline --decorate --all --graph
+    st  = status
+    r   = remote
+    re  = remote -v 
+    co  = checkout
+    com = checkout master
+    cod = checkout develop
