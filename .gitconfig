@@ -21,3 +21,6 @@
     co  = checkout
     com = checkout master
     cod = checkout develop
+
+[fetch]
+    prune = true 
