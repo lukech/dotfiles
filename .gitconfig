@@ -15,6 +15,7 @@
     l11 = log --oneline -1 
     lu  = log -u
     lg  = log --oneline --decorate --all --graph
+    lt  = log --no-walk --tags --pretty=\"%h %d %s\" --decorate=full
     st  = status
     r   = remote
     re  = remote -v 
