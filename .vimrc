@@ -7,3 +7,5 @@ colorscheme wombat
 if &diff
 	colorscheme monokai
 endif
+
+set updatetime=100
