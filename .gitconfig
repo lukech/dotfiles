@@ -17,6 +17,7 @@
     lg  = log --oneline --decorate --all --graph
     lt  = log --no-walk --tags --pretty=\"%h %d %s\" --decorate=full
     st  = status
+    stu = status -uno # ignore untracked files
     r   = remote
     re  = remote -v 
     co  = checkout
