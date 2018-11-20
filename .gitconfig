@@ -27,8 +27,11 @@
     prune = true 
 
 [sendemail]
-	to = luke.chen@mongodb.com
-	smtpEncryption = tls
-	smtpServer = smtp.gmail.com
-	smtpUser = luke.chen@10gen.com
-	smtpServerPort = 587
+    to = luke.chen@mongodb.com
+    smtpEncryption = tls
+    smtpServer = smtp.gmail.com
+    smtpUser = luke.chen@10gen.com
+    smtpServerPort = 587
+
+[core]
+    excludesfile = ~/.gitignore
