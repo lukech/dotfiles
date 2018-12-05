@@ -35,4 +35,5 @@
     smtpServerPort = 587
 
 [core]
+    editor = vim
     excludesfile = ~/.gitignore
