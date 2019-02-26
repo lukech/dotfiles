@@ -1,18 +1,9 @@
-[user]
-    name = Luke Chen
-    email = luke.chen@mongodb.com
-
-[color]
-    diff = auto
-    status = auto
-    branch = auto
-
 [alias]
     b   = branch -vv 
     br  = branch -av 
     l   = log
-    l1  = log --oneline
-    l11 = log --oneline -1 
+    l1  = log --oneline --date=relative --pretty=format:'%C(yellow)%h %Cblue%>(12)%ad %Creset%<(16)%aN%Cred%d %C(cyan)%s'
+    l11 = log --oneline
     lu  = log -u
     lg  = log --oneline --decorate --all --graph
     lt  = log --no-walk --tags --pretty=\"%h %d %s\" --decorate=full
@@ -24,8 +15,20 @@
     com = checkout master
     cod = checkout develop
 
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+
 [fetch]
     prune = true 
+
+[log]
+    date = human
 
 [sendemail]
     to = luke.chen@mongodb.com
@@ -34,6 +37,7 @@
     smtpUser = luke.chen@10gen.com
     smtpServerPort = 587
 
-[core]
-    editor = vim
-    excludesfile = ~/.gitignore
+[user]
+    name = Luke Chen
+    email = luke.chen@mongodb.com
+
