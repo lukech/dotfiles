@@ -5,6 +5,7 @@
     l1  = log --oneline --date=relative --pretty=format:'%C(yellow)%h %Cblue%>(12)%ad %Creset%<(16)%aN%Cred%d %C(cyan)%s'
     l11 = log --oneline
     lu  = log -u
+    ls  = log --stat
     lg  = log --oneline --decorate --all --graph
     lt  = log --no-walk --tags --pretty=\"%h %d %s\" --decorate=full
     st  = status
