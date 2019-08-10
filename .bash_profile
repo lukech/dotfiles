@@ -13,6 +13,8 @@ export JIRA_USERNAME="Luke Chen"
 export PYTHONSTARTUP=~/.pythonrc
 export GOPATH=~/practice/go-fun
 export PATH=$PATH:$GOPATH/bin
+export PROMOT_COMMAND="echo 👋"
+export HISTTIMEFORMAT="%d%m%y %T"
 
 function title {
     echo -ne "\033]0;"$*"\007"

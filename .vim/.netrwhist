@@ -1,4 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/lchen/practice'
-let g:netrw_dirhist_2='/Users/lchen/practice/dotfiles'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/lchen/workplace/wiredtiger-changes/test/suite'
+let g:netrw_dirhist_2='/Users/lchen/workplace/wiredtiger-changes/test/evergreen'
+let g:netrw_dirhist_3='/Users/lchen/workplace/wiredtiger/test/csuite/wt4333_handle_locks'
+let g:netrw_dirhist_4='/Users/lchen/workplace/wiredtiger-changes/test/evergreen'
+let g:netrw_dirhist_5='/Users/lchen/workplace/wiredtiger/test/evergreen'
+let g:netrw_dirhist_6='/Users/lchen/workplace/wiredtiger-changes/test/evergreen'
+let g:netrw_dirhist_7='/Users/lchen/workplace/automation-scripts/ansible-dev-box/ignore'
+let g:netrw_dirhist_8='/Users/lchen/workplace/wiredtiger-changes/test/evergreen'
+let g:netrw_dirhist_9='/Users/lchen/workplace/wiredtiger/test/evergreen'
