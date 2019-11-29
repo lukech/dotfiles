@@ -17,6 +17,7 @@
     cod = checkout develop
     ci  = commit
     cp  = cherry-pick
+    df  = diff
 
 [color]
     diff = auto
