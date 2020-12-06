@@ -1,6 +1,14 @@
 [alias]
+    a   = add
     b   = branch -vv 
     br  = branch -av 
+    co  = checkout
+    com = checkout master
+    cod = checkout develop
+    ci  = commit
+    cia = commit -a
+    cp  = cherry-pick -x
+    df  = diff
     l   = log
     l1  = log --oneline --date=relative --pretty=format:'%C(yellow)%h %Cblue%>(12)%ad %Creset%<(16)%aN%Cred%d %C(cyan)%s'
     l11 = log --oneline
@@ -8,16 +16,12 @@
     ls  = log --stat
     lg  = log --oneline --decorate --all --graph
     lt  = log --no-walk --tags --pretty=\"%h %d %s\" --decorate=full
-    st  = status
-    stu = status -uno # ignore untracked files
+    p   = pull
+    pr  = pull --rebase
     r   = remote
     re  = remote -v 
-    co  = checkout
-    com = checkout master
-    cod = checkout develop
-    ci  = commit
-    cp  = cherry-pick
-    df  = diff
+    st  = status -uno # ignore untracked files
+    stu = status # show untracked files
 
 [color]
     diff = auto
