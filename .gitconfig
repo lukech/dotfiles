@@ -58,3 +58,5 @@
 	rebase = false
 [init]
 	defaultBranch = main
+[blame]
+	ignoreRevsFile = ~/.git-ignore-revs
